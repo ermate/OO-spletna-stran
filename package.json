@@ -1,42 +1,37 @@
 {
-  "name": "OO-spletna-stran",
-  "version": "0.1.0",
-  "private": true,
+  "name": "hiro-agency-landing-page",
+  "version": "1.0.0",
+  "description": "Bootstrap 4 based Agency Landing Page",
+  "main": "index.html",
   "scripts": {
-    "serve": "node_modules/.bin/vue-cli-service serve",
-    "build": "node_modules/.bin/vue-cli-service build",
-    "lint": "node_modules/.bin/vue-cli-service lint"
+    "start": "gulp watch",
+    "vendors": "gulp buildVendors",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bootstrap4",
+    "landing-page",
+    "agency-landing-page",
+    "hiro-agency-landing-page",
+    "bs4-landing-page"
+  ],
+  "author": "Bootstrapdash",
+  "license": "Bootstrapdash Licence<https://www.BootstrapDash.com/license/>",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-sass": "^4.13.0"
   },
   "dependencies": {
-    "core-js": "^3.6.4",
-    "vue": "^2.6.11"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.3.0",
-    "@vue/cli-plugin-eslint": "~4.3.0",
-    "@vue/cli-service": "~4.3.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
-    "rules": {}
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+    "animate.css": "^3.7.2",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1",
+    "wowjs": "^1.1.3"
+  }
 }
