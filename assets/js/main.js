@@ -75,3 +75,13 @@ function doAnimations(elems) {
       .find("[data-animation ^= 'animated']");
     doAnimations($animatingElems);
   });
+
+img_array= new Array('assets/images/logo_1.png','assets/images/logo_2.png','assets/images/logo_3.png','assets/images/logo_4.png');
+i=0;
+function logoAnimate() {
+  document.getElementById("Logo").src=img_array[i];
+  if(i==img_array.length-1)
+    i=0;
+  else
+    i++;
+}
