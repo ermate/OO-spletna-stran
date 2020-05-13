@@ -82,12 +82,22 @@ img {
     display: inline-block;
 }
 
+.person {
+    overflow: hidden;
+}
+
 .person-img {
     position: absolute;
+    /* padding-top: 20px; */
+    /* max-height: 100%; */
     left: 0px;
     bottom: 0px;
     display: block;
-    width: 89.5%;
+    width: 89.6%;
+}
+
+.is-overlay:hover {
+    display: none;
 }
 
 img {
