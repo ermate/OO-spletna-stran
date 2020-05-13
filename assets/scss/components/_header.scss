@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 
-.hiro-header.home-header {
+.oo-header.home-header {
     background-image: linear-gradient(to right, #fff 0%, #fff 70%, #000 70%, #000 100%);
     background-size: cover;
     background-repeat: no-repeat;
@@ -13,13 +13,13 @@ html {
         background-position: top;
     }
 
-    .hiro-nav-popup-toggle #hiro-agency {
+    .oo-nav-popup-toggle #agency {
         fill: $white;
     }
 
 }
 
-.hiro-nav {
+.oo-nav {
     display: flex;
     justify-content: space-between;
     padding-top: 27px;
@@ -32,11 +32,11 @@ html {
     }
 }
 
-.hiro-nav-popup-toggle {
+.oo-nav-popup-toggle {
     border: 0;
     background-color: transparent;
 
-    #hiro-agency {
+    #agency {
         fill: $black;
     }
 
@@ -56,7 +56,7 @@ html {
         padding-top: 81px;
     }
 
-    .hiro-header {
+    .oo-header {
         background-image: none;
 
         > nav {
@@ -82,7 +82,7 @@ html {
         }
     }
 
-    .hiro-nav-popup-toggle #hiro-agency {
+    .oo-nav-popup-toggle #agency {
         fill: $white;
     }
 
@@ -105,7 +105,7 @@ html {
     }
 }
 
-.hiro-nav-popup-modal {
+.oo-nav-popup-modal {
     z-index: 1000;
     position: fixed;
     visibility: hidden;
@@ -218,7 +218,7 @@ html {
         }
     }
 
-    .hiro-main-nav {
+    .oo-main-nav {
         flex-direction: column;
 
         .nav-link {
@@ -251,7 +251,7 @@ html {
     }
 }
 
-.hiro-header-carousel {
+.oo-header-carousel {
     padding-top: 50px;
     padding-bottom: 50px;
     position: relative;
