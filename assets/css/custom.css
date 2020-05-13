@@ -73,9 +73,11 @@
 .person-background.extrude-1 {
     width: 95.1%;
 }
+
 .person-background {
     width: 100%;
 }
+
 img {
     max-width: 100%;
     vertical-align: middle;
@@ -88,8 +90,6 @@ img {
 
 .person-img {
     position: absolute;
-    /* padding-top: 20px; */
-    /* max-height: 100%; */
     left: 0px;
     bottom: 0px;
     display: block;
@@ -129,6 +129,6 @@ img {
 
 }
 
-.carousel-item-link {
-    padding-top: 50px;
+.carousel-item-title {
+    padding-bottom: 20%;
 }
