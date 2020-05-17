@@ -1,9 +1,9 @@
-$('.hiro-nav-popup-toggle').click(function(){
-    $('body').toggleClass('hiro-nav-popup-modal-open');
+$('.custom-nav-popup-toggle').click(function(){
+    $('body').toggleClass('custom-nav-popup-modal-open');
 });
 
-$('.hiro-main-nav .nav-link[href^="#"]:not([href="#!"])').click(function(){
-    $('body').removeClass('hiro-nav-popup-modal-open');
+$('.custom-main-nav .nav-link[href^="#"]:not([href="#!"])').click(function(){
+    $('body').removeClass('custom-nav-popup-modal-open');
 });
 $myCarousel = $('.carousel');
 

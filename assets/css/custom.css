@@ -4,7 +4,7 @@
     padding-top: 240px;
 }
 
-.hiro-header-carousel .carousel-item-title::before {
+.custom-header-carousel .carousel-item-title::before {
     color: #ffc107;
 }
 

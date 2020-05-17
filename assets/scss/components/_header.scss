@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 
-.hiro-header.home-header {
+.custom-header.home-header {
     background-image: linear-gradient(to right, #fff 0%, #fff 70%, #000 70%, #000 100%);
     background-size: cover;
     background-repeat: no-repeat;
@@ -13,13 +13,13 @@ html {
         background-position: top;
     }
 
-    .hiro-nav-popup-toggle #hiro-agency {
+    .custom-nav-popup-toggle #oo-webpage {
         fill: $white;
     }
 
 }
 
-.hiro-nav {
+.custom-nav {
     display: flex;
     justify-content: space-between;
     padding-top: 27px;
@@ -32,11 +32,11 @@ html {
     }
 }
 
-.hiro-nav-popup-toggle {
+.custom-nav-popup-toggle {
     border: 0;
     background-color: transparent;
 
-    #hiro-agency {
+    #oo-webpage {
         fill: $black;
     }
 
@@ -49,14 +49,14 @@ html {
     }
 }
 
-.hiro-nav-popup-modal-open {
+.custom-nav-popup-modal-open {
     overflow: hidden;
 
     @media (max-width: 767px) {
         padding-top: 81px;
     }
 
-    .hiro-header {
+    .custom-header {
         background-image: none;
 
         > nav {
@@ -82,7 +82,7 @@ html {
         }
     }
 
-    .hiro-nav-popup-toggle #hiro-agency {
+    .custom-nav-popup-toggle #oo-webpage {
         fill: $white;
     }
 
@@ -105,7 +105,7 @@ html {
     }
 }
 
-.hiro-nav-popup-modal {
+.custom-nav-popup-modal {
     z-index: 1000;
     position: fixed;
     visibility: hidden;
@@ -115,7 +115,7 @@ html {
     transform: translateX(0%) translateY(-100%);
     transition: all 0.4s ease-in-out;
 
-    .hiro-nav-popup-modal-open & {
+    .custom-nav-popup-modal-open & {
         visibility: visible;
         transform: translateX(0%) translateY(0%);
     }
@@ -135,7 +135,7 @@ html {
 		transition: transform cubic-bezier(.77,0,.175,1) 0.8s;
         transform: translateX(0%) translateY(-100%);
         
-        .hiro-nav-popup-modal-open & {
+        .custom-nav-popup-modal-open & {
             transform: translateX(0%) translateY(0%);
         }
 	}
@@ -143,14 +143,14 @@ html {
 		background: rgba(#ffffff, .1);
         transition-delay: 0s;
         
-        .hiro-nav-popup-modal-open & {
+        .custom-nav-popup-modal-open & {
             transition-delay: .1s;
         }
 	}
 	&:before{
         transition-delay: .1s;
         
-        .hiro-nav-popup-modal-open & {
+        .custom-nav-popup-modal-open & {
             transition-delay: 0s;
         }
     }
@@ -218,7 +218,7 @@ html {
         }
     }
 
-    .hiro-main-nav {
+    .custom-main-nav {
         flex-direction: column;
 
         .nav-link {
@@ -251,7 +251,7 @@ html {
     }
 }
 
-.hiro-header-carousel {
+.custom-header-carousel {
     padding-top: 50px;
     padding-bottom: 50px;
     position: relative;
