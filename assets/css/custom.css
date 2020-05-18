@@ -42,8 +42,16 @@
     background-color: #438945;
 }
 
-.custom-header-carousel .carousel-item-title::before {
-    color: #ffc107;
+.custom-header-carousel .carousel-item-title-1::before {
+    color: #eba63f;
+}
+
+.custom-header-carousel .carousel-item-title-2::before {
+    color: #438945;
+}
+
+.custom-header-carousel .carousel-item-title-3::before {
+    color: #3cbcc3;
 }
 
 .custom-section {
