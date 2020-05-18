@@ -41,7 +41,3 @@ function logoAnimate() {
   else
     i++;
 }
-
-// $('#bitcoinLogo').on('mouseover', function() {
-//   $(this).attr('src', 'assets/images/bitcoin-gray-logo.svg');
-// });
