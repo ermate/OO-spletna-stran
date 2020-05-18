@@ -7242,10 +7242,9 @@ a.text-dark:hover, a.text-dark:focus {
       font-size: 38px; } }
 
 .section-text-ct {
-  font-family: 'Crimson Text', serif;
   font-size: 22px;
   color: #000000;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.23; }
 
 .section-text-light {
