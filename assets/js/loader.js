@@ -1,5 +1,7 @@
 // Wait for window load
 $(window).on('load', function () {
     // Animate loader off screen
-    $(".custom-loader").fadeOut("slow");;
+    this.setTimeout(function () {
+        $(".custom-loader").fadeOut("slow");;
+    }, 500);
 });

@@ -4,6 +4,44 @@
     padding-top: 240px;
 }
 
+.custom-color-1 {
+    color: #e40C2B;
+}
+.custom-color-2 {
+    color: #1d1d2c;
+}
+.custom-color-3 {
+    color: #f7f4e9;
+}
+.custom-color-4 {
+    color: #3cbcc3;
+}
+.custom-color-5 {
+    color: #eba63f;
+}
+.custom-color-6 {
+    color: #438945;
+}
+
+.custom-bg-color-1 {
+    background-color: #e40C2B;
+}
+.custom-bg-color-2 {
+    background-color: #1d1d2c;
+}
+.custom-bg-color-3 {
+    background-color: #f7f4e9;
+}
+.custom-bg-color-4 {
+    background-color: #3cbcc3;
+}
+.custom-bg-color-5 {
+    background-color: #eba63f;
+}
+.custom-bg-color-6 {
+    background-color: #438945;
+}
+
 .custom-header-carousel .carousel-item-title::before {
     color: #ffc107;
 }
@@ -131,4 +169,16 @@ img {
 
 .carousel-item-title {
     padding-bottom: 20%;
+}
+
+#bitcoinLogo:hover {
+    content:url("../images/bitcoin-color-logo.svg");
+}
+
+#litecoinLogo:hover {
+    content:url("../images/litecoin-color-logo.svg");
+}
+
+p {
+    text-align: justify;
 }
