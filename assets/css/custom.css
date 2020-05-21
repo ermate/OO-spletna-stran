@@ -210,6 +210,9 @@ p {
 .navbarLogo {
     display: inline-block;
 }
+#navbarLogoE, #navbarLogoZ {
+    margin-right: -3px;
+}
 .navbarLogoElement {
     height: 25px;
 }
