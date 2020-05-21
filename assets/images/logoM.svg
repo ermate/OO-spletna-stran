@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFC107;}
+	.st1{fill:#44D7B6;}
+	.st2{fill:#E83E8C;}
+	.st3{fill:#FFFFFF;}
+</style>
+<circle class="st0" cx="-56" cy="50" r="50"/>
+<circle class="st1" cx="-56" cy="156.5" r="50"/>
+<circle class="st2" cx="50" cy="156.5" r="50"/>
+<circle cx="50" cy="50" r="50"/>
+<g>
+	<path d="M-38.2,52.4h-29.9v26.1h34.4V83h-39.8V19h39.6v4.6h-34.2v24.2h29.9V52.4z"/>
+</g>
+<text transform="matrix(1 0 0 1 -82.9167 189.5335)" style="font-family:'Roboto-Light'; font-size:90px;">Z</text>
+<text transform="matrix(1 0 0 1 26.2915 189.5335)" style="font-family:'Roboto-Light'; font-size:90px;">L</text>
+<g>
+	<path class="st3" d="M26.3,19l23.6,56.5L73.6,19h7.2v64h-5.4V55.2l0.4-28.6L52,83h-4.2L24.1,26.8L24.6,55v28h-5.4V19H26.3z"/>
+</g>
+</svg>

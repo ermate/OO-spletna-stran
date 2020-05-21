@@ -197,3 +197,19 @@ p {
     line-height: 1.71;
     margin-bottom: 36px;
 }
+
+
+/* .dot {
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #e40C2B;
+} */
+
+.navbarLogo {
+    display: inline-block;
+}
+.navbarLogoElement {
+    height: 25px;
+}

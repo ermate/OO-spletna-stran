@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/custom.css">
     <script src="assets/vendors/jquery/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
     <script src="assets/js/loader.js"></script>
 </head>
 
@@ -19,8 +20,18 @@
         <nav>
             <div class="container">
                 <div class="custom-nav">
-                    <a class="nav-brand" onclick="logoAnimate()">
-                        <img src="assets/images/logo_1.png" height="60px" id="Logo" alt="Logo" class="logo">
+                    <a href="" class="nav-brand">
+                        <!-- <img src="assets/images/logo_1.png" height="60px" id="Logo" alt="Logo" class="logo"> -->
+                        <div class="navbarLogo">
+                            <div class="navbarLogo-first">
+                                <img id="navbarLogoE" src="assets/images/logoE.svg" class="navbarLogoElement"></img>
+                                <img id="navbarLogoM" src="assets/images/logoM.svg" class="navbarLogoElement"></img>
+                            </div>
+                            <div class="navbarLogo-second">
+                                <img id="navbarLogoZ" src="assets/images/logoZ.svg" class="navbarLogoElement"></img>
+                                <img id="navbarLogoL" src="assets/images/logoL.svg" class="navbarLogoElement"></img>
+                            </div>
+                        </div>
                     </a>
                     <button class="custom-nav-popup-toggle">
                         <svg width="20px" height="18px" viewBox="0 0 20 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -212,6 +223,7 @@
             </div>
         </div>
     </section>
+    <!-- Team section -->
     <section class="custom-section team-section custom-section" id="team">
         <div class="container">
             <div class="col-md-5 wow fadeInUp">
@@ -261,6 +273,7 @@
             </div>
         </div>
     </section>
+    <!-- Employment section -->
     <section class="contact-section custom-section" id="contact">
         <div class="container wow fadeInUp">
             <h2 class="section-title">Want to help?</h2>

@@ -3,5 +3,5 @@ $(window).on('load', function () {
     // Animate loader off screen
     this.setTimeout(function () {
         $(".custom-loader").fadeOut("slow");;
-    }, 500);
+    }, 700);
 });
