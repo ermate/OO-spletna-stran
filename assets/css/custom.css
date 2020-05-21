@@ -190,3 +190,10 @@ img {
 p {
     text-align: justify;
 }
+
+.section-text-light {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.71;
+    margin-bottom: 36px;
+}
