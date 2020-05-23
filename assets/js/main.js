@@ -1,5 +1,12 @@
+// hamburger click
 $('.custom-nav-popup-toggle').click(function(){
     $('body').toggleClass('custom-nav-popup-modal-open');
+    // $('#navbarLogoM').attr('src', 'assets/images/logoM-style-inverted.svg');
+    $('#navbarLogoM').attr('src', function(index, attr){
+      var normal = 'assets/images/logoM-style.svg';
+      var inverted = 'assets/images/logoM-style-inverted.svg';
+      return attr == inverted ? normal : inverted;
+  });
 });
 
 $('.custom-main-nav .nav-link[href^="#"]:not([href="#!"])').click(function(){
