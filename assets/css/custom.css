@@ -42,6 +42,20 @@
     background-color: #438945;
 }
 
+.custom-blog-header.home-header {
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+@media (max-width: 767px) {
+    .custom-blog-header.home-header {
+        background-size: 100%;
+        background-position: top; }
+}
+
+.custom-blog-header.home-header .custom-nav-popup-toggle #oo-webpage {
+    fill: #ffffff; }
+
 .custom-header-carousel .carousel-item-title-1::before {
     color: #eba63f;
 }
